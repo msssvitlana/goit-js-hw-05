@@ -39,9 +39,9 @@ const users = [
   },
 ];
 
-function getUserNames(users) {
+const getUserNames = users => {
   return users.flatMap(user => user.name);
-}
+};
 
 console.log(
   getUserNames([
