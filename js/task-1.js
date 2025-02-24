@@ -40,7 +40,7 @@ const users = [
 ];
 
 const getUserNames = users => {
-  return users.flatMap(user => user.name);
+  return users.map(user => user.name);
 };
 
 console.log(
